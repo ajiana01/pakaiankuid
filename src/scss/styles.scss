@@ -1,0 +1,17 @@
+// Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+// Font's
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.disable-link {
+    color: black;
+    text-decoration: none;
+}
