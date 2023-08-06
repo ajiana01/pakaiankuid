@@ -1,7 +1,7 @@
 {
   "name": "pakaiankuid",
   "version": "1.0.0",
-  "description": "",
+  "description": "e-commerce",
   "main": "index.js",
   "directories": {
     "lib": "lib"
