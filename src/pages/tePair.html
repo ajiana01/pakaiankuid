@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../assets/img/favicon.png" type="image/favicon">
+    <title>PakaiankuId</title>
+    <script type="module" src="../js/main.js"></script>
+    
+  </head>
+  <body>
+
+    <!-- Navbar Start -->
+   <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid ms-4 me-4">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../assets/img/LogoPakaiankuID.png" alt="Logo" width="170" height="43" class="d-inline-block align-text-top">
+        </a>
+        <div class="collapse navbar-collapse ms-4" id="navbarNav">
+            <ul class="navbar-nav nav-underline">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="teSell.html">TeSell</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="teChange.html">TeChange</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tePair.html">TePair</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="teUp.html">TeUp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="teDonation.html">TeDonation</a>
+              </li>
+            </ul>
+          </div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 rounded-pill" type="search" placeholder="Cari Pakaian" aria-label="Cari Pakaian">
+        <button class="btn rounded-circle position-absolute search-button" type="submit"><i class="bi bi-search fs-6"></i></button>
+      </form>
+        <ul class="navbar-nav">
+          <li class="nav-item ms-2 me-2">
+            <button type="button" class="btn rounded-circle position-relative">
+                <i class="bi bi-heart"></i>
+                <span class="position-absolute top-0 start-80 translate-middle badge rounded-pill bg-danger">2 <span class="visually-hidden">unread messages</span></span>
+              </button>
+          </li>
+          <li class="nav-item ms-2 me-2">
+            <button type="button" class="btn rounded-circle position-relative">
+                <i class="bi bi-bag"></i><span class="position-absolute top-0 start-80 translate-middle badge rounded-pill bg-danger">2 <span class="visually-hidden">unread messages</span></span>
+              </button>
+          </li>
+          <li class="nav-item">
+          </li>
+          <li class="nav-item ms-2 me-2">
+            <a class="btn bg-primary rounded-0 text-bg-primary" href="#" role="button">Masuk</a>
+        </li>
+        </ul>
+      
+    </div>
+  </nav>
+   <!-- Navbar End -->
+  
+   <!-- Banner TePair -->
+  <div class="card text-bg-dark rounded-0 mb-5">
+    <img src="../assets/img/bannerTePair.png" class="card-img" alt="Banner Techange">
+    <div class="card-img-overlay">
+      <div class="container position-absolute bottom-0 start-0 col-sm-6 p-6 mb-4 ms-3">
+        <h1 class="card-title text-uppercase fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        <p class="card-text fs-5 fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis amet ab autem dolorum.</p>
+      </div>
+    </div>
+  </div>
+   <!-- Banner Tepair End -->
+    
+   <!-- Catalog penjahit start -->
+   <div class="container text-center">
+    <div class="row">
+      
+      <div class="col text-start">
+        <button type="button" class="btn btn-outline-secondary" style="width: 40%;" disabled>16 Item ditemukan</button>
+      </div>
+      <div class="col text-end">
+        <div class="dropdown">
+          <button class="btn btn-outline-secondary dropdown-toggle text-start" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 30%;">
+            Kategori
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Terbaru</a></li>
+            <li><a class="dropdown-item" href="#">Terfavorit</a></li>
+            <li><a class="dropdown-item" href="#">Termurah</a></li>
+            <li><a class="dropdown-item" href="#">Termahal</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- item here -->
+      <div class="col-12 p-0">
+        <div class="container text-center">
+          <div class="row row-cols-1 row-cols-lg-5 row-cols-md-3 g-4 mt-2 align-items-start">
+            
+            <div class="col mb-2 mt-2 mx-0 px-2">
+              <div class="card rounded-3">
+                <img src="../assets/img/penjahit.png" class="card-img-top" alt="produk" href="#" style="cursor:pointer;">
+                <div class="card-body">
+                    <a href="#" class="disable-link"><h6 class="card-text text-start fw-medium fs-5 mb-2">Kayla Tailor - Jasa Jahit Pakaian dan Kain
+                    </h6></a>
+                    <div class="card-text row container p-0 m-0">
+                        <div class="col-3 p-0 m-0 text-start">
+                            <p class="text-body-secondary p-0 m-0">
+                                <span class="bi bi-star-fill text-warning"></span> 5.0
+                            </p>
+                        </div>
+                        <div class="col-1 p-0 m-0">
+                            <p class="text-body-secondary p-0 m-0">|</p>
+                        </div>
+                        <div class="col p-0 m-0 text-start">
+                            <p class="text-body-secondary p-0 m-0">Kota Semarang</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-2 mt-2 mx-0 px-2">
+                <div class="card rounded-3">
+                  <img src="../assets/img/penjahit.png" class="card-img-top" alt="produk" href="#" style="cursor:pointer;">
+                  <div class="card-body">
+                      <a href="#" class="disable-link"><h6 class="card-text text-start fw-medium fs-5 mb-2">Kayla Tailor - Jasa Jahit Pakaian dan Kain
+                      </h6></a>
+                      <div class="card-text row container p-0 m-0">
+                          <div class="col-3 p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">
+                                  <span class="bi bi-star-fill text-warning"></span> 5.0
+                              </p>
+                          </div>
+                          <div class="col-1 p-0 m-0">
+                              <p class="text-body-secondary p-0 m-0">|</p>
+                          </div>
+                          <div class="col p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">Kota Semarang</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-2 mt-2 mx-0 px-2">
+                <div class="card rounded-3">
+                  <img src="../assets/img/penjahit.png" class="card-img-top" alt="produk" href="#" style="cursor:pointer;">
+                  <div class="card-body">
+                      <a href="#" class="disable-link"><h6 class="card-text text-start fw-medium fs-5 mb-2">Kayla Tailor - Jasa Jahit Pakaian dan Kain
+                      </h6></a>
+                      <div class="card-text row container p-0 m-0">
+                          <div class="col-3 p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">
+                                  <span class="bi bi-star-fill text-warning"></span> 5.0
+                              </p>
+                          </div>
+                          <div class="col-1 p-0 m-0">
+                              <p class="text-body-secondary p-0 m-0">|</p>
+                          </div>
+                          <div class="col p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">Kota Semarang</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-2 mt-2 mx-0 px-2">
+                <div class="card rounded-3">
+                  <img src="../assets/img/penjahit.png" class="card-img-top" alt="produk" href="#" style="cursor:pointer;">
+                  <div class="card-body">
+                      <a href="#" class="disable-link"><h6 class="card-text text-start fw-medium fs-5 mb-2">Kayla Tailor - Jasa Jahit Pakaian dan Kain
+                      </h6></a>
+                      <div class="card-text row container p-0 m-0">
+                          <div class="col-3 p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">
+                                  <span class="bi bi-star-fill text-warning"></span> 5.0
+                              </p>
+                          </div>
+                          <div class="col-1 p-0 m-0">
+                              <p class="text-body-secondary p-0 m-0">|</p>
+                          </div>
+                          <div class="col p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">Kota Semarang</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-2 mt-2 mx-0 px-2">
+                <div class="card rounded-3">
+                  <img src="../assets/img/penjahit.png" class="card-img-top" alt="produk" href="#" style="cursor:pointer;">
+                  <div class="card-body">
+                      <a href="#" class="disable-link"><h6 class="card-text text-start fw-medium fs-5 mb-2">Kayla Tailor - Jasa Jahit Pakaian dan Kain
+                      </h6></a>
+                      <div class="card-text row container p-0 m-0">
+                          <div class="col-3 p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">
+                                  <span class="bi bi-star-fill text-warning"></span> 5.0
+                              </p>
+                          </div>
+                          <div class="col-1 p-0 m-0">
+                              <p class="text-body-secondary p-0 m-0">|</p>
+                          </div>
+                          <div class="col p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">Kota Semarang</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-2 mt-2 mx-0 px-2">
+                <div class="card rounded-3">
+                  <img src="../assets/img/penjahit.png" class="card-img-top" alt="produk" href="#" style="cursor:pointer;">
+                  <div class="card-body">
+                      <a href="#" class="disable-link"><h6 class="card-text text-start fw-medium fs-5 mb-2">Kayla Tailor - Jasa Jahit Pakaian dan Kain
+                      </h6></a>
+                      <div class="card-text row container p-0 m-0">
+                          <div class="col-3 p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">
+                                  <span class="bi bi-star-fill text-warning"></span> 5.0
+                              </p>
+                          </div>
+                          <div class="col-1 p-0 m-0">
+                              <p class="text-body-secondary p-0 m-0">|</p>
+                          </div>
+                          <div class="col p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">Kota Semarang</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-2 mt-2 mx-0 px-2">
+                <div class="card rounded-3">
+                  <img src="../assets/img/penjahit.png" class="card-img-top" alt="produk" href="#" style="cursor:pointer;">
+                  <div class="card-body">
+                      <a href="#" class="disable-link"><h6 class="card-text text-start fw-medium fs-5 mb-2">Kayla Tailor - Jasa Jahit Pakaian dan Kain
+                      </h6></a>
+                      <div class="card-text row container p-0 m-0">
+                          <div class="col-3 p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">
+                                  <span class="bi bi-star-fill text-warning"></span> 5.0
+                              </p>
+                          </div>
+                          <div class="col-1 p-0 m-0">
+                              <p class="text-body-secondary p-0 m-0">|</p>
+                          </div>
+                          <div class="col p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">Kota Semarang</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-2 mt-2 mx-0 px-2">
+                <div class="card rounded-3">
+                  <img src="../assets/img/penjahit.png" class="card-img-top" alt="produk" href="#" style="cursor:pointer;">
+                  <div class="card-body">
+                      <a href="#" class="disable-link"><h6 class="card-text text-start fw-medium fs-5 mb-2">Kayla Tailor - Jasa Jahit Pakaian dan Kain
+                      </h6></a>
+                      <div class="card-text row container p-0 m-0">
+                          <div class="col-3 p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">
+                                  <span class="bi bi-star-fill text-warning"></span> 5.0
+                              </p>
+                          </div>
+                          <div class="col-1 p-0 m-0">
+                              <p class="text-body-secondary p-0 m-0">|</p>
+                          </div>
+                          <div class="col p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">Kota Semarang</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-2 mt-2 mx-0 px-2">
+                <div class="card rounded-3">
+                  <img src="../assets/img/penjahit.png" class="card-img-top" alt="produk" href="#" style="cursor:pointer;">
+                  <div class="card-body">
+                      <a href="#" class="disable-link"><h6 class="card-text text-start fw-medium fs-5 mb-2">Kayla Tailor - Jasa Jahit Pakaian dan Kain
+                      </h6></a>
+                      <div class="card-text row container p-0 m-0">
+                          <div class="col-3 p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">
+                                  <span class="bi bi-star-fill text-warning"></span> 5.0
+                              </p>
+                          </div>
+                          <div class="col-1 p-0 m-0">
+                              <p class="text-body-secondary p-0 m-0">|</p>
+                          </div>
+                          <div class="col p-0 m-0 text-start">
+                              <p class="text-body-secondary p-0 m-0">Kota Semarang</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blank-space"></div>
+  </div>
+   <!-- Catalog penjahit end -->
+
+  <!-- Footer Start -->
+    <div class="container p-0 mb-4">
+        <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 row-cols-sm-1 gy-4 justify-content-center text-center">
+          <div class="col-3 pe-5">
+            <div >
+              <img src="../assets/img/footer-logo.png" class="card-img-top" alt="PakaiankuId">
+            </div>
+          </div>
+          <div class="col-3">
+            <ul class="list-group text-start">
+              <li class="list-group-item mb-2 fw-bold border-0 text-uppercase bg-no">Layanan Kami</li>
+              <li class="list-group-item border-0 bg-no"><a href="#" class="text-decoration-none text-black">TeSell</a></li>
+              <li class="list-group-item border-0 bg-no"><a href="#" class="text-decoration-none text-black">TeChange</a></li>
+              <li class="list-group-item border-0 bg-no"><a href="#" class="text-decoration-none text-black">TePair</a></li>
+              <li class="list-group-item border-0 bg-no"><a href="#" class="text-decoration-none text-black">TeUp</a></li>
+              <li class="list-group-item border-0 bg-no"><a href="#" class="text-decoration-none text-black">TeDonation</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul class="list-group text-start bg-no">
+              <li class="list-group-item mb-2 fw-bold border-0 text-uppercase bg-no">Informasi</li>
+              <li class="list-group-item border-0 bg-no"><a href="#" class="text-decoration-none text-black">Tentang Kami</a></li>
+              <li class="list-group-item border-0 bg-no"><a href="#" class="text-decoration-none text-black">Aturan Pengguna</a></li>
+              <li class="list-group-item border-0 bg-no"><a href="#" class="text-decoration-none text-black">Kebijakan Privasi</a></li>
+              <li class="list-group-item border-0 bg-no"><a href="#" class="text-decoration-none text-black">Kebijakan Hak Cipta</a></li>
+              <li class="list-group-item border-0 bg-no"><a href="#" class="text-decoration-none text-black">Syarat & Ketentuan Berlaku</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul class="list-group text-start">
+              <li class="list-group-item mb-2 fw-bold border-0 text-uppercase bg-no">Pelayanan</li>
+              <li class="list-group-item border-0 bg-no">09:00 - 17:00 WIB</li>
+              <li class="list-group-item border-0 bg-no">(Senin - Minggu)</li>
+              <li class="list-group-item border-0 fw-bold text-uppercase bg-no">Sosial Media</li>
+              <li class="list-group-item border-0 bg-no m-0 p-0">
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item border-0 bg-no"><a href="#"><img src="../assets/img/facebook.png" alt="facebook"></a></li>
+                  <li class="list-group-item border-0 bg-no"><a href="#"><img src="../assets/img/youtube.png" alt="youtube"></a></li>
+                  <li class="list-group-item border-0 bg-no"><a href="#"><img src="../assets/img/instagram.png" alt="instagram"></a></li>
+                  <li class="list-group-item border-0 bg-no"><a href="#"><img src="../assets/img/tik_tok.png" alt="tiktok"></a></li>
+  
+                </ul>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bg-primary">
+        <footer class="text-white text-center py-3">
+          <p class="p-0 m-0">Copyright &copy; PakaiankuId 2023 All Rights Reserved</p>
+        </footer>
+     </div>
+      <!-- Footer End -->
+
+  </body>
+</html>
