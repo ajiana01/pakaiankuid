@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('tesell_clothes', function (Blueprint $table) {
             $table->id();
-            $table->foreign('seller_id')->references('id')->on('sellers');
+            $table->unsignedBigInteger('seller_id');
             $table->string('name');
             $table->string('image');
             $table->string('description');
@@ -19,6 +19,11 @@ return new class extends Migration
             $table->integer('price');
             $table->string('category');
             $table->timestamp('upload_date');
+            $table->foreign('seller_id')
+                  ->references('id')
+                  ->on('sellers')
+                  ->onDelete('cascade')
+                  ->onUpdate('cascade');
         });
     }
 

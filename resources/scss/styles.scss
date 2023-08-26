@@ -1,0 +1,56 @@
+// Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+// Font's
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f6f6f6;
+}
+
+.disable-link {
+    color: black;
+    text-decoration: none;
+}
+
+.p-custom {
+  padding-left: 3rem; /* Sesuaikan dengan ukuran yang Anda inginkan */
+  padding-right: 3rem; /* Sesuaikan dengan ukuran yang Anda inginkan */
+}
+
+.search-button {
+  right: 16rem;
+}
+
+.carousel-custom {
+  padding-top: 2rem ;
+}
+
+.btn-ind-color {
+  background-color: #1766B0;
+}
+
+.bx-sz {
+  box-sizing: border-box;
+}
+
+.width-faq {
+  width: 85%;
+}
+
+.tx-white {
+  color: white;
+}
+
+.blank-space {
+  height: 100px;
+  max-width: max-content;
+}
+
+.bg-no {
+  background-color: #f6f6f6;
+}
