@@ -54,10 +54,50 @@
           <li class="nav-item">
           </li>
           <li class="nav-item ms-2 me-2">
-            <a class="btn bg-primary rounded-0 text-bg-primary" href="#" role="button">Masuk</a>
+            <a class="btn bg-primary rounded-0 text-bg-primary" href="#" role="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Masuk</a>
         </li>
         </ul>
-      
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content P-5">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-4 mt-2">
+              <h4>Selamat Datang!</h4>
+              <p class="text-body-secondary">Masuk atau Buat Akun untuk memulai transaksi.</p>
+              <div class="form-floating">
+                <input type="text" class="form-control" id="numberphone" placeholder="number">
+                <label for="numberphone"><span class="bi bi-phone"></span>Masukan nomor telepon anda</label>
+                <div class="d-grid gap-2 mt-3 mb-3">
+                  <button type="button" name="loginnomerhp" id="loginhp" class="btn btn-primary">Masuk</button>
+                </div>
+                <div class="container text-center p-0 m-0">
+                  <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 p-0 m-0">
+                            <hr>
+                        </div>
+                        <div class="col-md-8 text-center mt-1 p-0">
+                          <p class="text-body-secondary fs-6">Masuk atau Buat Akun menggunakan</p>
+                        </div>
+                        <div class="col-md-2 p-0 m-0">
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                  
+                  <div class="d-grid">
+                    <button type="button" name="google login" id="logingoogle" class="btn btn-outline-secondary"><span class="bi bi-google"></span> Google</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blank-space2"></div>
+          </div>
+        </div>
+      </div>  
     </div>
   </nav>
    <!-- Navbar End -->
@@ -105,7 +145,7 @@
               <div class="card rounded-3">
                 <img src="../assets/img/penjahit.png" class="card-img-top" alt="produk" href="#" style="cursor:pointer;">
                 <div class="card-body">
-                    <a href="#" class="disable-link"><h6 class="card-text text-start fw-medium fs-5 mb-2">Kayla Tailor - Jasa Jahit Pakaian dan Kain
+                    <a href="tePairAbout.html" class="disable-link"><h6 class="card-text text-start fw-medium fs-5 mb-2">Kayla Tailor - Jasa Jahit Pakaian dan Kain
                     </h6></a>
                     <div class="card-text row container p-0 m-0">
                         <div class="col-3 p-0 m-0 text-start">
